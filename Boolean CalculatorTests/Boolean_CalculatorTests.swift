@@ -20,4 +20,11 @@ final class Boolean_CalculatorTests: XCTestCase {
         
         XCTAssertFalse(BooleanCalculator.getValue(of: sample))
     }
+    
+    
+    func testGivenInvalidInputWhenAskedValueReturnsfalse() {
+        let sample = "invalid input"
+        
+        XCTAssertFalse(BooleanCalculator.getValue(of: sample))
+    }
 }

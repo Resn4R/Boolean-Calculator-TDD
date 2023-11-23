@@ -14,6 +14,7 @@
 		4F77840F2B0FBB740096C107 /* Boolean_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77840E2B0FBB740096C107 /* Boolean_CalculatorTests.swift */; };
 		4F7784192B0FBB740096C107 /* Boolean_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7784182B0FBB740096C107 /* Boolean_CalculatorUITests.swift */; };
 		4F77841B2B0FBB740096C107 /* Boolean_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77841A2B0FBB740096C107 /* Boolean_CalculatorUITestsLaunchTests.swift */; };
+		4F7784292B0FBB8F0096C107 /* Boolean Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7784272B0FBB8B0096C107 /* Boolean Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4F7784142B0FBB740096C107 /* Boolean CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boolean CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7784182B0FBB740096C107 /* Boolean_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boolean_CalculatorUITests.swift; sourceTree = "<group>"; };
 		4F77841A2B0FBB740096C107 /* Boolean_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boolean_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F7784272B0FBB8B0096C107 /* Boolean Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boolean Calculator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4F7783FD2B0FBB720096C107 /* Boolean_CalculatorApp.swift */,
 				4F7783FF2B0FBB720096C107 /* ContentView.swift */,
+				4F7784272B0FBB8B0096C107 /* Boolean Calculator.swift */,
 				4F7784012B0FBB740096C107 /* Assets.xcassets */,
 				4F7784032B0FBB740096C107 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				4F7784002B0FBB720096C107 /* ContentView.swift in Sources */,
 				4F7783FE2B0FBB720096C107 /* Boolean_CalculatorApp.swift in Sources */,
+				4F7784292B0FBB8F0096C107 /* Boolean Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

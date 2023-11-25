@@ -14,6 +14,7 @@ struct BooleanCalculator {
         "true": true,
         "false": false
     ]
+
         
     static private func getValue(of string: String) -> Bool? {
         guard (string == "true" || string == "false") else { return nil }
@@ -25,7 +26,34 @@ struct BooleanCalculator {
         
         let processedInput = string.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         
-        return getValue(of: processedInput)
+        let inputValues = processedInput.split(separator: " ")
         
+        var operators = [String?]()
+        var booleans = [String]()
+        
+        inputValues.forEach { substring in
+            switch substring {
+            case "not": operators.append(String(substring))
+            case "and": operators.append(String(substring))
+            case "or": operators.append(String(substring))
+            default: booleans.append(String(substring))
+            }
+        }
+        guard !operators.isEmpty else { return getValue(of: processedInput) }
+        
+        return NOT(getValue(of: booleans[0]) ?? false)
+        
+    }
+    
+    static private func NOT(_ value: Bool) -> Bool {
+        !value
+    }
+    
+    static private func AND(_ value: Bool, _ value2: Bool) -> Bool {
+        value && value2
+    }
+    
+    static private func OR(_ value: Bool, _ value2: Bool) -> Bool {
+        value || value2
     }
 }

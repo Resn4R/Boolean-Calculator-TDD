@@ -29,4 +29,10 @@ final class Boolean_CalculatorTests: XCTestCase {
         
         XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), nil)
     }
+    
+    func testGivenNOTTRUEWhenAskedValueReturnsfalse() {
+        let sample = "not true"
+        
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
+    }
 }

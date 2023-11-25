@@ -24,36 +24,73 @@ struct BooleanCalculator {
     
     static func getEvaluation (of string: String) -> Bool? {
         
-        let processedInput = string.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+        var processedInput = string.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         
-        let inputValues = processedInput.split(separator: " ")
-        
-        var operators = [String?]()
-        var booleans = [String]()
-        
-        inputValues.forEach { substring in
-            switch substring {
-            case "not": operators.append(String(substring))
-            case "and": operators.append(String(substring))
-            case "or": operators.append(String(substring))
-            default: booleans.append(String(substring))
+        var inputValues = processedInput.split(separator: " ")
+        inputValues.reverse()
+        var processedValues = inputValues.reduce([String]()) { partialResult, Substring in
+            
+            switch Substring {
+            case "not": 
+                switch partialResult.first {
+                case .some( let value):
+                    var updatedFirst: [String] = ["not \(value)"]
+                    return updatedFirst + partialResult.dropFirst()
+                default: return ["not"]
+                }
+            default: return [String(Substring)] + partialResult
             }
+           
+           
         }
+        
+        var operators = processedValues.filter { string in
+            String(string) == "and" || String(string) == "or"
+        }
+        
+        var rawBooleans = processedValues.filter { string in
+            String(string) != "and" && String(string) != "or"
+        }
+        
+        var processedBooleans =  rawBooleans.compactMap { value in
+            if value.description.count > 5 {
+                var strings = String(value).split(separator: " ")
+                strings.removeAll { Substring in
+                    Substring != "true" || Substring != "false"
+                }
+                return NOT(getValue(of: String(strings[0]))!)
+            }
+           return getValue(of:String(value))!
+        }
+
         guard !operators.isEmpty else { return getValue(of: processedInput) }
+        guard processedBooleans.count > 0 else { return nil }
         
-        return NOT(getValue(of: booleans[0]) ?? false)
-        
+        var result = Bool()
+
+        return processedBooleans
+            .dropFirst()
+            .enumerated()
+            .reduce(processedBooleans.first) { partialResult, current in
+                switch partialResult {
+                case .none: return nil
+                case .some(let resultSoFar):
+                   return combineOperatorAndBools(of: resultSoFar, and: current.element, with: String(operators[current.offset]))
+                }
+            }
     }
     
     static private func NOT(_ value: Bool) -> Bool {
         !value
     }
     
-    static private func AND(_ value: Bool, _ value2: Bool) -> Bool {
-        value && value2
-    }
-    
-    static private func OR(_ value: Bool, _ value2: Bool) -> Bool {
-        value || value2
+    static private func combineOperatorAndBools(of v1: Bool, and v2: Bool, with operatorString: String) -> Bool? {
+        if operatorString == "and" {
+            return v1 && v2
+        } else if operatorString == "or" {
+            return v1 || v2
+        } else {
+            return nil
+        }
     }
 }

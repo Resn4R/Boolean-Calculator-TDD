@@ -35,4 +35,23 @@ final class Boolean_CalculatorTests: XCTestCase {
         
         XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
     }
+    
+    func testGivenNOTFALSEWhenAskedValueReturnsTrue() {
+        let sample = "not false"
+        
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), true)
+    }
+    
+    func testGivenTRUEANDFALSEWhenAskedValueReturnsFALSE() {
+        let sample = "true AND false"
+
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
+    }
+    
+    func testGivenTRUEANDNOTFALSEWhenAskedValueReturnsTRUE() {
+        let sample = "true AND not false"
+
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), true)
+    }
+    
 }

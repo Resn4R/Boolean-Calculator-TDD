@@ -7,72 +7,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F42883FB-72C5-423A-9F78-9DC341DA4FD1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Boolean Calculator/Boolean Calculator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "BooleanCalculator"
-            landmarkType = "14">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9D797D99-9490-49AE-B86D-352DBA6C1072"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Boolean Calculator/Boolean Calculator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "getValue(of:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "343662A0-3CDD-452F-B20F-0B70AFC1ABCC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Boolean Calculator/Boolean Calculator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "getValue(of:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EF97FC3D-86FC-410B-A216-8B7277EBCFD9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Boolean Calculator/Boolean Calculator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "getValue(of:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "939CA238-86CE-4591-BB66-383771FEDD01"
-            shouldBeEnabled = "No"
+            uuid = "AA03330B-79D5-4D85-8F5E-FFD8EF0AFF15"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Boolean Calculator/Boolean Calculator.swift"
@@ -80,6 +16,633 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
             endingLineNumber = "27"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA03330B-79D5-4D85-8F5E-FFD8EF0AFF15 - 3cc24ba58c12182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "AA03330B-79D5-4D85-8F5E-FFD8EF0AFF15 - 3cc24ba58c12182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "AA03330B-79D5-4D85-8F5E-FFD8EF0AFF15 - 3cc24ba58c12182"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A623494-0D35-442D-B95E-05CFF94B7601"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3A623494-0D35-442D-B95E-05CFF94B7601 - 3cc24ba58c121cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "3A623494-0D35-442D-B95E-05CFF94B7601 - 3cc24ba58c121cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "492">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE - 93ef3cdc13e09d28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Substring) -&gt; Swift.Optional&lt;Swift.Bool&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE - 3cc24ba58c123dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE - 36cd3c0530049f96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Substring) -&gt; Swift.Bool in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE - 3cc24ba58c13c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE - 36cd3c0530048035"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Substring) -&gt; Swift.Bool in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE - 3cc24ba58c13c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE - 3cc24ba58c13c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "796">
+               </Location>
+               <Location
+                  uuid = "565C9D3E-B15F-4A80-B6C2-BF3949686FAE - 54b720cfcde834c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.String) -&gt; Swift.Bool in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3181DEB6-776F-4FAB-B02E-CCDCA3998AA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3181DEB6-776F-4FAB-B02E-CCDCA3998AA5 - 3cc24ba58c13d07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "984">
+               </Location>
+               <Location
+                  uuid = "3181DEB6-776F-4FAB-B02E-CCDCA3998AA5 - 2bff85b19fd6950"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Substring) -&gt; Swift.Optional&lt;Swift.Bool&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "3181DEB6-776F-4FAB-B02E-CCDCA3998AA5 - 2bff85b19fd6935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Substring) -&gt; Swift.Optional&lt;Swift.Bool&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "3181DEB6-776F-4FAB-B02E-CCDCA3998AA5 - 2bff85b19fd6935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Substring) -&gt; Swift.Optional&lt;Swift.Bool&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "3181DEB6-776F-4FAB-B02E-CCDCA3998AA5 - d404daf7183a9219"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09378DCB-E3F8-469A-9900-E8EC46322A79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "09378DCB-E3F8-469A-9900-E8EC46322A79 - 3cc24ba58c13f77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+               <Location
+                  uuid = "09378DCB-E3F8-469A-9900-E8EC46322A79 - 2bff85b19fd6a1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Substring) -&gt; Swift.Optional&lt;Swift.Bool&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "804">
+               </Location>
+               <Location
+                  uuid = "09378DCB-E3F8-469A-9900-E8EC46322A79 - d404daf7183a9136"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "796">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3ABB481-184F-4BDE-82FB-4D3A405723E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3ABB481-184F-4BDE-82FB-4D3A405723E7 - 3cc24ba58c1222f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "C3ABB481-184F-4BDE-82FB-4D3A405723E7 - 3cc24ba58c1222f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "782054E9-4898-4B8A-9501-5EADE37A0731"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "782054E9-4898-4B8A-9501-5EADE37A0731 - 3cc24ba58c1220e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "782054E9-4898-4B8A-9501-5EADE37A0731 - 19c48a17793b5a64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;, Swift.Substring) -&gt; Swift.Array&lt;Swift.String&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "782054E9-4898-4B8A-9501-5EADE37A0731 - 19c48a17793b5a64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;, Swift.Substring) -&gt; Swift.Array&lt;Swift.String&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "782054E9-4898-4B8A-9501-5EADE37A0731 - 3cc24ba58c1220e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "648">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFED0187-4425-4845-BE72-A4BDE4664CA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "341A18BA-424D-4FCB-BA23-DC2CAF9A444B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "341A18BA-424D-4FCB-BA23-DC2CAF9A444B - 19c48a17793b5abf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;, Swift.Substring) -&gt; Swift.Array&lt;Swift.String&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "341A18BA-424D-4FCB-BA23-DC2CAF9A444B - 19c48a17793b5abf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;, Swift.Substring) -&gt; Swift.Array&lt;Swift.String&gt; in static Boolean_Calculator.BooleanCalculator.getEvaluation(of: Swift.String) -&gt; Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Boolean Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitob/Desktop/Swift%20Projects/TDD/Boolean%20Calculator/Boolean%20Calculator/Boolean%20Calculator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE8314B8-AD43-43B3-A74F-705F728687B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4AFDF70-3F0A-4175-B583-4C51D90D2201"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getEvaluation(of:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "946666D0-99FC-492A-B9E3-B072523210E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Boolean Calculator/Boolean Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "getEvaluation(of:)"
             landmarkType = "7">
          </BreakpointContent>

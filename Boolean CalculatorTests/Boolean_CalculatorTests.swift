@@ -5,34 +5,23 @@
 //  Created by Vito Borghi on 23/11/2023.
 //
 
+//Create a boolean calculator that takes in values, accepts AND | OR | NOT logic gates
+
 import XCTest
 @testable import Boolean_Calculator
 
 final class Boolean_CalculatorTests: XCTestCase {
-    func testGivenTRUEWhenAskedValueReturnstrue() {        
+    
+    func testGivenTRUEWhenAskedValueReturnstrue() {
         let sample = "true"
         
-        XCTAssertTrue((BooleanCalculator.getEvaluation(of: sample) != nil))
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), true)
     }
     
     func testGivenFALSEWhenAskedValueReturnsfalse() {
         let sample = "false"
         
-        XCTAssertFalse((BooleanCalculator.getEvaluation(of: sample) != nil))
-    }
-    
-    
-    func testGivenInvalidInputWhenAskedValueReturnsfalse() {
-        let sample = "invalid input"
-        
-        XCTAssertNil(BooleanCalculator.getEvaluation(of: sample))
-    }
-    
-    func testGivenTwoTRUEInputsWhenAskedForNOTOperatorReturnsTrue() {
-        let sample = "NOT false"
-
-        
-        XCTAssertTrue((BooleanCalculator.getEvaluation(of: sample) != nil))
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
     }
     
 }

@@ -16,29 +16,16 @@ struct BooleanCalculator {
     ]
         
     static private func getValue(of string: String) -> Bool? {
-        guard string.lowercased() == "true" || string.lowercased() == "false" else { return nil }
-        return tableOfTruth[string.lowercased()]!
+        guard (string == "true" || string == "false") else { return nil }
+        guard let value = tableOfTruth[string] else { return nil }
+        return value
     }
     
     static func getEvaluation (of string: String) -> Bool? {
-        guard string.count > 0 else { return nil }
         
-        let stringValues: [String] = string.components(separatedBy: " ")
+        let processedInput = string.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         
-        guard stringValues.count > 1 else { return getValue(of: stringValues[0]) }
+        return getValue(of: processedInput)
         
-        let operators: [String] = stringValues.filter{
-            $0.lowercased() == "and" || $0.lowercased() == "or" || $0.lowercased() == "not"
-        }
-        let values: [String] = stringValues.filter{
-            $0.lowercased() == "true" || $0.lowercased() == "false"
-        }
-        
-        switch operators[0] {
-        case "and": return nil
-        case "or": return nil
-        case "not": return !getValue(of: values[0])!
-        default: return nil
-        }
     }
 }

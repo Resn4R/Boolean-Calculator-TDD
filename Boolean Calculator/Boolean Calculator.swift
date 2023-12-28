@@ -106,47 +106,11 @@ struct BooleanCalculator {
             .map{ String($0) }
             .reversed()
         
-        var index = 0
-        var result = false
+        resolveNOT(&values)
         
-        while index < values.count{
-            if values[index] == "not" {
-                
-                values[index-1] = String(getBool(of: "\(values[index]) \(values[index-1])"))
-                
-                values.remove(at: index)
-                
-                index -= 1
-                
-            }
-            index += 1
-        }
+        resolveAND(&values)
         
-        index = 0
-        
-        while index < values.count{
-            if values[index] == "and" {
-                values[index-1] = String( getBool(of: values[index-1]) && getBool(of: values[index+1]))
-                
-                values.removeSubrange(index...index+1)
-                
-                index -= 2
-            }
-            index += 1
-        }
-        
-        index = 0
-        
-        while index < values.count {
-            if values[index] == "or" {
-                values[index - 1] = String( getBool(of: values[index-1]) || getBool(of: values[index+1]))
-                
-                values.removeSubrange(index...index+1)
-                
-                index -= 2
-            }
-            index += 1
-        }
+        resolveOR(&values)
         
         return getBool(of: values[0])
     }
@@ -160,6 +124,53 @@ struct BooleanCalculator {
         case "not true": return false
             
         default: return false
+        }
+    }
+    
+    private static func resolveNOT(_ values: inout [String]) {
+        var index = 0
+
+        while index < values.count{
+            if values[index] == "not" {
+                
+                values[index-1] = String(getBool(of: "\(values[index]) \(values[index-1])"))
+                
+                values.remove(at: index)
+                
+                index -= 1
+                
+            }
+            index += 1
+        }
+    }
+    
+    private static func resolveAND(_ values: inout [String]) {
+        var index = 0
+        
+        while index < values.count{
+            if values[index] == "and" {
+                values[index-1] = String( getBool(of: values[index-1]) && getBool(of: values[index+1]))
+                
+                values.removeSubrange(index...index+1)
+                
+                index -= 2
+            }
+            index += 1
+        }
+    }
+    
+    private static func resolveOR(_ values: inout [String]) {
+        var index = 0
+        
+        while index < values.count {
+            if values[index] == "or" {
+                values[index - 1] = String( getBool(of: values[index-1]) || getBool(of: values[index+1]))
+                
+                values.removeSubrange(index...index+1)
+                
+                index -= 2
+            }
+            index += 1
         }
     }
     

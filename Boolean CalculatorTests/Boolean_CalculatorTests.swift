@@ -24,12 +24,6 @@ final class Boolean_CalculatorTests: XCTestCase {
         XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
     }
     
-    func testGivenInvalidInputWhenAskedValueReturnsNIL() {
-        let sample = "invalid input"
-        
-        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), nil)
-    }
-    
     func testGivenNOTTRUEWhenAskedValueReturnsfalse() {
         let sample = "not true"
         
@@ -43,15 +37,20 @@ final class Boolean_CalculatorTests: XCTestCase {
     }
     
     func testGivenTRUEANDFALSEWhenAskedValueReturnsFALSE() {
-        let sample = "true AND false"
+        let sample = "true and false"
 
         XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
     }
     
     func testGivenTRUEANDNOTFALSEWhenAskedValueReturnsTRUE() {
-        let sample = "true AND not false"
+        let sample = "true and not false"
 
         XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), true)
     }
     
+    func testGivenTripleGateWhenAskedValueReturnsTRUE() {
+        let sample = "true and true and not false"
+
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), true)
+    }
 }

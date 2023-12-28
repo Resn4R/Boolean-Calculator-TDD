@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BooleanCalculator {
+/*struct BooleanCalculatorOP {
     //implements a Boolean calculator that gets a string as input and evaluates it to the Boolean result
     ///The table of truth is a [String:Bool] dictionary containing the converted values for true and false
     static let tableOfTruth: [String:Bool] = [
@@ -85,12 +85,65 @@ struct BooleanCalculator {
     }
     
     static private func combineOperatorAndBools(of v1: Bool, and v2: Bool, with operatorString: String) -> Bool? {
-        if operatorString == "and" {
-            return v1 && v2
-        } else if operatorString == "or" {
-            return v1 || v2
-        } else {
-            return nil
+        switch operatorString {
+        case "and": return v1 && v2
+        case "or": return v1 || v2
+        default: return nil
         }
+    }
+}*/
+
+struct BooleanCalculator {
+    static func getEvaluation(of value: String) -> Bool {
+        
+        guard value.split(separator: " ").count > 2 else {
+            return getBool(of: value.lowercased())
+        }
+        
+        var values: [String] = value
+            .lowercased()
+            .split(separator: " ")
+            .map{ String($0) }
+            .reversed()
+        
+        var index = 0
+        
+        while index < values.count {
+            
+            if values[index] == "not" {
+                values[0] = String(getBool(of: "\(values[index]) \(values[index-1])"))
+                
+                values.remove(at: index)
+                
+                index -= 1
+            } else if values[index] == "and" {
+                
+                values[0] = getANDgate(of: getBool(of: values[index-1]), and: getBool(of: values[index+1]))
+                
+                values.removeSubrange(index...index+1)
+                
+                index -= 2
+            }
+            
+            index += 1
+        }
+        
+        return getBool(of: values[0])
+    }
+    
+    static func getBool(of value: String) -> Bool {
+        switch value.lowercased() {
+        case "true": fallthrough
+        case "not false": return true
+            
+        case "false": fallthrough
+        case "not true": return false
+            
+        default: return false
+        }
+    }
+    
+    private static func getANDgate(of val1: Bool, and val2: Bool) -> String {
+        String(val1 && val2)
     }
 }

@@ -110,19 +110,26 @@ struct BooleanCalculator {
         
         while index < values.count {
             
-            if values[index] == "not" {
+            switch values[index] {
+            case "not":
                 values[0] = String(getBool(of: "\(values[index]) \(values[index-1])"))
                 
                 values.remove(at: index)
                 
                 index -= 1
-            } else if values[index] == "and" {
-                
-                values[0] = getANDgate(of: getBool(of: values[index-1]), and: getBool(of: values[index+1]))
+            case "and":
+                values[0] = String( getBool(of: values[index-1]) && getBool(of: values[index+1]))
                 
                 values.removeSubrange(index...index+1)
                 
                 index -= 2
+            case "or":
+                values[0] = String( getBool(of: values[index-1]) || getBool(of: values[index+1]))
+                
+                values.removeSubrange(index...index+1)
+                
+                index -= 2
+            default: print("ass")
             }
             
             index += 1
@@ -131,7 +138,7 @@ struct BooleanCalculator {
         return getBool(of: values[0])
     }
     
-    static func getBool(of value: String) -> Bool {
+    private static func getBool(of value: String) -> Bool {
         switch value.lowercased() {
         case "true": fallthrough
         case "not false": return true
@@ -143,7 +150,4 @@ struct BooleanCalculator {
         }
     }
     
-    private static func getANDgate(of val1: Bool, and val2: Bool) -> String {
-        String(val1 && val2)
-    }
 }

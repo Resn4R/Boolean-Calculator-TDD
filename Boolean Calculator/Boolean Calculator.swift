@@ -107,31 +107,44 @@ struct BooleanCalculator {
             .reversed()
         
         var index = 0
+        var result = false
         
-        while index < values.count {
-            
-            switch values[index] {
-            case "not":
-                values[0] = String(getBool(of: "\(values[index]) \(values[index-1])"))
+        while index < values.count{
+            if values[index] == "not" {
+                
+                values[index-1] = String(getBool(of: "\(values[index]) \(values[index-1])"))
                 
                 values.remove(at: index)
                 
                 index -= 1
-            case "and":
-                values[0] = String( getBool(of: values[index-1]) && getBool(of: values[index+1]))
                 
-                values.removeSubrange(index...index+1)
-                
-                index -= 2
-            case "or":
-                values[0] = String( getBool(of: values[index-1]) || getBool(of: values[index+1]))
-                
-                values.removeSubrange(index...index+1)
-                
-                index -= 2
-            default: print("ass")
             }
-            
+            index += 1
+        }
+        
+        index = 0
+        
+        while index < values.count{
+            if values[index] == "and" {
+                values[index-1] = String( getBool(of: values[index-1]) && getBool(of: values[index+1]))
+                
+                values.removeSubrange(index...index+1)
+                
+                index -= 2
+            }
+            index += 1
+        }
+        
+        index = 0
+        
+        while index < values.count {
+            if values[index] == "or" {
+                values[index - 1] = String( getBool(of: values[index-1]) || getBool(of: values[index+1]))
+                
+                values.removeSubrange(index...index+1)
+                
+                index -= 2
+            }
             index += 1
         }
         

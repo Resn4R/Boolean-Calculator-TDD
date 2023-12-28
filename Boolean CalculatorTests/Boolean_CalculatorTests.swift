@@ -77,4 +77,10 @@ final class Boolean_CalculatorTests: XCTestCase {
 
         XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), true)
     }
+    
+    func testGivenNOTTRUEANDFALSEORFALSEshouldReturnFalse() {
+        let sample = "not true and false or false"
+
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
+    }
 }

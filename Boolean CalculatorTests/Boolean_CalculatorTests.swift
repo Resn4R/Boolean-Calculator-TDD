@@ -83,4 +83,10 @@ final class Boolean_CalculatorTests: XCTestCase {
 
         XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
     }
+    
+    func testGivenParenthesisShouldProcessCorrectly() {
+        let sample = "(TRUE OR TRUE OR TRUE) AND FALSE"
+        
+        XCTAssertEqual(BooleanCalculator.getEvaluation(of: sample), false)
+    }
 }

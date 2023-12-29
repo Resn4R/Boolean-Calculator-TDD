@@ -109,15 +109,17 @@ struct BooleanCalculator {
         
         
         if values.contains(where: {$0 == ""}) {
-            var openBracketIndex = values.firstIndex(of: "") ?? 0
-            var closeBracketIndex = values[openBracketIndex+1..<values.count].firstIndex(of: "")
             
-            var subarray = Array(values[openBracketIndex+1..<closeBracketIndex!])
-
-            let resolved = [String(Self.getEvaluation(of: subarray.joined(separator: " ")))]
-            
-            values.replaceSubrange(openBracketIndex...closeBracketIndex!, with: resolved)
-            
+            while values.contains("") {
+                var openBracketIndex = values.firstIndex(of: "") ?? 0
+                var closeBracketIndex = values[openBracketIndex+1..<values.count].firstIndex(of: "")
+                
+                var subarray = Array(values[openBracketIndex+1..<closeBracketIndex!])
+                
+                let resolved = [String(Self.getEvaluation(of: subarray.joined(separator: " ")))]
+                
+                values.replaceSubrange(openBracketIndex...closeBracketIndex!, with: resolved)
+            }
         }
         
         if values.contains(where: { $0 == "not" }) {
